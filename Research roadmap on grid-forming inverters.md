@@ -6,4 +6,14 @@ Lin, Yashen, et al. **Research roadmap on grid-forming inverters.** No. NREL/TP-
 
 <br>Synchronous generators regulate their terminal voltages and respond to a change in grid frequency through a change in its power output; these are traditionally referred to as generator excitation and turbine-governor controls, respectively. These types of primary, secondary, and tertiary controls and voltage control are well-known. We refer to these generation sources as grid-forming. 
 
-<br> Today’s inverter-based generation sources generally use phase-locked loops (PLLs), which rely on externally generated voltages by synchronous machines to operate. We refer to these types of inverter-based generation as grid-following inverters. 
+<br>Today’s inverter-based generation sources generally use phase-locked loops (PLLs), which rely on externally generated voltages by synchronous machines to operate. We refer to these types of inverter-based generation as grid-following inverters. 
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/3d37b0a0-b386-4d8d-82e4-cf97ba33fefd)
+
+<br>Today’s inverter-based sources, by design, provide lower— sometimes much lower—fault currents. Inverter-based resources, moreover, do not provide the same fault current phasors as traditional machine generators. System protection methods for hybrid power systems, therefore, will need to be re-engineered, accounting for these differing fault currents and conditions.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/b5007b98-6547-4165-9d1f-677b3d5d77e4)
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/52ae382b-697a-48d9-bdbc-7923dece5ffe)
+
+<br>Droop control: The most well-established grid-forming method is droop control, which was first proposed in the early 1990s (Chandorkar, Divan, and Adapa 1993). Its key feature is that it exhibits a linear trade-off between frequency and voltage versus real and reactive power, much like a typical synchronous machine does in steady state. These so-called “droop laws” are referred to as the P-omega (real power-frequency) and Q-V (reactive power-voltage) relationships, and they give rise to the following properties regardless of whether they are machines or inverters: o System-wide synchronization: All units reach the same frequency. o Power sharing: Each unit provides power in proportion to its capacity (or its programmable droop slope). These properties arise as a result of the networked interactions from the grid and locally programmed droop laws.
