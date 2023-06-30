@@ -16,3 +16,11 @@ For an isolated power grid, due to the high penetration of renewable energy, the
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/06381088-881d-4499-9815-67d4b3c138fa)
 
 <be>the voltage outer loop controls the output voltage of converters and generates the inner loop current reference. Since GFM control does not directly control the current, a current limiting loop is required to limit the output current of converters.
+
+<be>Power synchronization loop of GFM mainly consists of two kinds of control modes, namely droop control and virtual synchronous machine (VSG) control,
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/4ec6571d-06f1-4e46-a623-03f9b4e4352d)
+
+<be>Droop control mimics the primary frequency regulation process of synchronous machines. VSG control mimics the inertia response process of synchronous machines, so that it can support the equivalent inertia of power systems.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/753cdeef-bde5-4ec5-b5c8-2472634f38d9)
