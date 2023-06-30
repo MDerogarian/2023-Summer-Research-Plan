@@ -10,7 +10,9 @@ For an isolated power grid, due to the high penetration of renewable energy, the
 
 <be>The advantage of GFL control lies in its fast response speed, which can quickly adjust the active and reactive power output according to the power reference, and the external characteristics presents as a controllable current source. However, because GFL control strategy controls the output current directly, it cannot respond to the frequency dynamic of power grids, and cannot provide inertia supporting for power systems.
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/6630e0c1-b92f-45ed-a3c0-5c7e28dce6fd)
+
 <be>GFL control strategy mainly consists of three parts: power outer loop, current inner loop and PLL. The role of PLL is to keep renewable energy synchronized with the power grid. Because of its fast follow-up characteristic, renewable energy cannot respond to the frequency change of the power grid. The power outer loop enables renewable energy to output power according to the given reference power. Most renewable energy operates under the condition of unit power factor and does not output reactive power.
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/06381088-881d-4499-9815-67d4b3c138fa)
+
 <be>the voltage outer loop controls the output voltage of converters and generates the inner loop current reference. Since GFM control does not directly control the current, a current limiting loop is required to limit the output current of converters.
