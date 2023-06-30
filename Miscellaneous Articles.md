@@ -23,4 +23,5 @@ For an isolated power grid, due to the high penetration of renewable energy, the
 
 <be>Droop control mimics the primary frequency regulation process of synchronous machines. VSG control mimics the inertia response process of synchronous machines, so that it can support the equivalent inertia of power systems.
 
+<be> Through switching different control strategies during different stages, renewable energy can actively support the system frequency. In this paper, a sequence switching control strategy is proposed. When the system frequency response df/dt*Δf>0, GFM control is adopted to increase the equivalent inertia of system to reduce the maximum frequency deviation. When df/dt*Δf<0, GFL control can reduce the time for system frequency to recover to stability by reducing the equivalent inertia of isolated power grid.
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/753cdeef-bde5-4ec5-b5c8-2472634f38d9)
