@@ -1,3 +1,4 @@
 Qiu, Weijie, et al. "A Grid Forming/Following Sequence Switching Control Strategy for Supporting Frequency Stability of Isolated Power Grids." 2023 5th Asia Energy and Electrical Engineering Symposium (AEEES). IEEE, 2023.
 
 For an isolated power grid, due to the high penetration of renewable energy, the system inertia is low, and frequency instability is prone to occur after the power grid is disturbed.
+At present, most of converters adopt grid following (GFL) control mode and have no inertia control loop, cannot respond to the frequency dynamic process of system and cannot provide inertia support for power grid. In recent years, grid forming (GFM) control has gradually become a main control strategy to solve system frequency problems due to the introduction of control loops that simulate the inertia response of synchronous machines, which has the inertia support capability similar to that of the synchronous machines.
