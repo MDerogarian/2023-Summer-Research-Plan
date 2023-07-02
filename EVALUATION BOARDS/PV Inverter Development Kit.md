@@ -1,5 +1,7 @@
 # TMDSSOLARUINVKIT, Solar Micro Inverter Development Kit
 
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/e480a330-549e-4487-b366-369a358b863b)
+
 https://www.ti.com/tool/TMDSSOLARUINVKIT
 
 ## Features (Price 850$)
