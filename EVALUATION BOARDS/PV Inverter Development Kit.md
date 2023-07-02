@@ -4,7 +4,7 @@
 
 https://www.ti.com/tool/TMDSSOLARUINVKIT
 
-## Features (Price 850$)
+## Features (Price 850$) (Single Phase!)
 ### Hardware Features
 
 - A complete solar-micro-inverter development platform with Isolated DC-DC and DC-AC power stage. Supports panel voltages of 28 to 45V at input. Hence an active clamp fly back DC/DC converter with secondary voltage multiplier is implemented on the board to enable greater efficiency. 100kHz switching is used.
