@@ -1,3 +1,4 @@
 Wang, Xiongfei, et al. "Grid-synchronization stability of converter-based resources—An overview." IEEE Open Journal of Industry Applications 1 (2020): 115-134.
 
 <br> The grid synchronization methods can be classified into two categories with respect to the operating modes of converter-based resources:
+- The voltage-based grid synchronization that measures or estimates (voltage sensor-less) the frequency and phase of the voltage at the point of common coupling (PCC) of grid-connected converters. The detected phase is then used with the vector current control [4] or the direct power control [3] for regulating the active and reactive power exchanged with the grid. Such a voltagebased grid synchronization control is named as the gridfollowing control, since they follow the phase of grid voltage
