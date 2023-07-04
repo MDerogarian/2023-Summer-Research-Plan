@@ -7,7 +7,7 @@ https://www.ti.com/tool/TMDSSOLARUINVKIT
 ## Features (Price 850$) (Single Phase!)
 ### Hardware Features
 
-- A complete solar-micro-inverter development platform with Isolated DC-DC and DC-AC power stage. Supports panel voltages of 28 to 45V at input. Hence an active clamp fly back DC/DC converter with secondary voltage multiplier is implemented on the board to enable greater efficiency. 100kHz switching is used.
+- A complete solar-micro-inverter development platform with Isolated DC-DC and DC-AC power stage. Supports panel voltages of 28 to 45V at input. Hence an active clamp flyback DC/DC converter with secondary voltage multiplier is implemented on the board to enable greater efficiency. 100kHz switching is used.
 - Universal power output at up to 280W for 220VAC and up to 140W for 110VAC, making it suitable for the diverse requirements of worldwide solar markets. Inverter switches at 50kHz.
 <bt> 93 percent peak efficiency and less than four percent total harmonic distortion (THD) provide more power output per solar panel, reducing detrimental heat dissipation and increasing system longevity.
 - The C2000 Piccolo F28035 MCU serves as a high-performance controller for the complete micro inverter system, executing high-frequency control loops for both the DC/DC and DC/AC power stages.
