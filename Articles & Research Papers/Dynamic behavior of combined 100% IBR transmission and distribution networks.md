@@ -6,3 +6,6 @@ Quedan, Amro, et al. "Dynamic behavior of combined 100% IBR transmission and dis
 <be>Different grid-forming control strategies have been proposed in the literature, such as droop control, virtual synchronous machine (VSM), and virtual oscillator control (VOC). Recently, an Andronov-Hopf oscillator (AHO) control has been proposed. It emulates the dynamics of a set of second order nonlinear equations. The AHO attracts more attention than other VOC strategies due to its flexibility to be dispatched by adjusting the active and reactive power set values and ability to provide an improved harmonic performance.
 
 <be>Current limiting is a crucial factor to consider when analyzing the dynamic behavior of GFL and GFM. Any inverter, irrespective of GFL or GFM, is a current limited device with a current limiting algorithm. Two main current limiting algorithms are presented in literature: the current saturation algorithm (CSA) and the virtual impedance (VI). The CSA provides more accurate current limitation than the VI.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/640b53a9-94c6-4431-a207-1beb514376d9)
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/8c6905f5-5fde-441b-9dba-07507424db58)
