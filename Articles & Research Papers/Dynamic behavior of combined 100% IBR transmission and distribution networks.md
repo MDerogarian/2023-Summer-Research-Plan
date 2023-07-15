@@ -1,2 +1,4 @@
 Quedan, Amro, et al. "Dynamic behavior of combined 100% IBR transmission and distribution networks with grid-forming and grid-following inverters." 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT). IEEE, 2023.
 
+Overall, system inertia reduces as these resources replace rotating synchronous machines. Grid-forming control is one of the solutions introduced to overcome the challenges in the electrical grid due to the increase in inverters.
+The presence of RSMs results in a slow system dynamic trajectory that allows precise grid voltage angle tracking. However, as IBR increase and replace RSMs, faster system dynamics are introduced and GFLs may fail to remain synchronized with the system [2] [3].As one of the potential solutions, the grid-forming inverter (GFM) is introduced as an RSMs replacement to control/regulate the electrical grid voltage and frequency
