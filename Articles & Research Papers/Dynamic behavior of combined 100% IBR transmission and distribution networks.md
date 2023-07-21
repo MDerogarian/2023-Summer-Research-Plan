@@ -9,3 +9,5 @@ Quedan, Amro, et al. "Dynamic behavior of combined 100% IBR transmission and dis
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/640b53a9-94c6-4431-a207-1beb514376d9)
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/8c6905f5-5fde-441b-9dba-07507424db58)
+
+The results show that as the percentage of the GFM inverters increased in the network a faster recovery was observed after the fault during the grid-connected mode. In addition, during the islanded mode as the percentage of the GFM inverters increased the frequency and voltage were closer to the pre-islanding event values. Also, the increase in the GFM inverters ratio provided a more stable frequency and voltage response during a load increase event in the islanded mode. A ratio greater than 20% GFM inverter in the distribution network studied allow a desired and stable frequency and voltage levels.
