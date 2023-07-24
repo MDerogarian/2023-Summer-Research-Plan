@@ -1,3 +1,8 @@
 Zhang, Haobo, et al. "Grid forming converters in renewable energy sources dominated power grid: Control strategy, stability, application, and challenges." Journal of modern power systems and clean energy 9.6 (2021): 1239-1256.
 
 <be>With the increasing penetration of converter-interfaced RESs, the conventional synchronous generator (SG) dominated power grid is being changed to a weak power grid with low inertia. Under this condition, a small perturbation will cause large fluctuation and deviation of grid frequency, resulting in low-frequency demand disconnection and even the collapse of the power grid.
+
+<be>To improve the frequency response, enhanced GFL control methods such as current-controlled droop control and current-controlled virtual synchronous generator (VSG) control are proposed to support the power grid. However, when integrating with weak power grids, the GFL control methods will deteriorate the stability of grid-tied converters and induce wide-band frequency oscillation problems.
+
+<be>Due to the constant output voltage and frequency, the GFM converter can only integrate with passive pow‐ er grids (without SGs or GFM converters). When integrating with active power grids (e.g., SGs and GFM convert‐ ers), the power synchronization loop (PSL) is added to the VF control to share power among other voltage sources. 
+<be>The fundamental idea behind this PSL-based GFM con‐ trol lies in the emulation of the rotor characteristics of SGs, which enable RESs to self-synchronize with power grids without PLL, share power among different power sources, and provide grid support to improve frequency response. Thus, it can overcome the drawbacks of GFL control.
