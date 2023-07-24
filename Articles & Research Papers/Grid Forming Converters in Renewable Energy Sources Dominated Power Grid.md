@@ -29,13 +29,13 @@ Although some improvements have been implemented, the inner control of the grid-
 
 # GFM CONTROL
 
-## VF Control
+## Voltage/Frequency Control
 <be> VF control is designed to maintain the output voltage amplitude and frequency constant through the closed-loop control, which is often applied in passive power grids, such as islanded grids or uninterruptable power supply (UPS) sys‐ tems. However, due to the constant voltage source characteristic, VF-controlled converter has no power-sharing capability, which cannot operate in active power grids.
 
 <be> For the single-loop control, the converter output voltage Vinv * is generated directly by the frequency reference value ω* and reference value of voltage amplitude V *. While for the dual-loop control, Vinv * is obtained from cascaded voltage and current loops. Thus, the dual-loop control also has the cur‐ rent limiting capability.
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/315b8f59-8957-4227-b907-8f5eee2fae57)
 
-## PSL-based GFM control
+## Power Synchronization Loop-Based GFM Control
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/8cb1a99b-aefc-4edd-90c9-ba737281f8e5)
 
