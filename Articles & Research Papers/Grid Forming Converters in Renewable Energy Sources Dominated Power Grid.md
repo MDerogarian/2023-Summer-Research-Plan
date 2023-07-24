@@ -53,3 +53,13 @@ Although some improvements have been implemented, the inner control of the grid-
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/1b732600-a7b0-4c14-a8ee-3aeedef7519d)
 
+# CURRENT LIMITING STRATEGIES OF GFM CONVERTER
+
+<be>Due to the voltage source characteristic, the GFM converter may encounter overcurrent problems under large grid disturbances, such as AC faults. To ensure the safety of power semiconductors, the current limiting strategies for AC fault are necessary for GFM converter. There are two classic fault current limiting strategies, i. e., the instantaneous saturation limiter and the latched limiter. They are both realized by adding the current limiter block between voltage and current control.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/3d0f1046-7e1b-49d6-9e02-3fc29126f172)
+
+<be>However, for the limiters in SYRF and STRF, all current reference coordinates will be switched to pre-defined values once the magnitude exceeds the threshold, which will cause the same injected current in three phases. As a result, there will be a large converter current injected into healthy phase under asymmetric faults, which may cause overvoltage in healthy phases.
+
+<be> When the fault current exceeds the limiter threshold, the current reference is saturated, which will change the operation mode of GFM converters from voltage source mode to current source mode. Under this circumstance, a large input error of the PSL during faults may cause a large output frequency deviation. Meanwhile, the power angle of converters will increase continuously, leading to the loss of synchronization.
+
