@@ -13,6 +13,7 @@ Zhang, Haobo, et al. "Grid forming converters in renewable energy sources domina
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/adc49e37-595c-4b19-9b4b-8d2cd976681d)
 
+# GFL CONTROL
 <be>Since the power references P* and Q* are constant, the PQ-controlled converter has no grid regulation capacity. That may induce a large grid frequency deviation even under a small disturbance. Moreover, since the dynamic of PLL affects the converter output impedance, the PQ-controlled converter has a poor small-signal stability with integration into weak grid, e.g., RESs dominated power grid. Besides, constrained by controlled current source characteristic, the PQ-controlled converter is a negative load to power grids, which can only transmit power in the presence of a stable AC voltage.
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/0b894a50-0919-4804-bfde-ee8b5b1ef6ee)
@@ -25,3 +26,14 @@ Zhang, Haobo, et al. "Grid forming converters in renewable energy sources domina
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/90fd5333-7c15-4f39-89a6-39d60cd0c262)
 
 Although some improvements have been implemented, the inner control of the grid-supporting GFL control methods is still unchanged. Thus, those enhanced methods still operate as the controlled current sources without stand-alone operation capability. In addition, the inherent stability issue caused by PLL in RESs dominated grid is still a potential risk.
+
+# GFM CONTROL
+
+## VF Control
+<be> VF control is designed to maintain the output voltage amplitude and frequency constant through the closed-loop control, which is often applied in passive power grids, such as islanded grids or uninterruptable power supply (UPS) sys‐ tems. However, due to the constant voltage source characteristic, VF-controlled converter has no power-sharing capability, which cannot operate in active power grids.
+
+<be> For the single-loop control, the converter output voltage Vinv * is generated directly by the frequency reference value ω* and reference value of voltage amplitude V *. While for the dual-loop control, Vinv * is obtained from cascaded voltage and current loops. Thus, the dual-loop control also has the cur‐ rent limiting capability.
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/315b8f59-8957-4227-b907-8f5eee2fae57)
+
+## PSL-based GFM control
+
