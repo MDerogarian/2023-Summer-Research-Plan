@@ -37,3 +37,7 @@ Although some improvements have been implemented, the inner control of the grid-
 
 ## PSL-based GFM control
 
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/8cb1a99b-aefc-4edd-90c9-ba737281f8e5)
+
+a)The droop control lacks inertia support capability.
+
