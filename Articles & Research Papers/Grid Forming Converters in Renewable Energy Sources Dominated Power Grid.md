@@ -46,3 +46,10 @@ Although some improvements have been implemented, the inner control of the grid-
 - e) Based on the VSG, the excitation characteristics of SGs have been further considered in the design of synchronverter. Therefore, the synchronverter mimics the operation characteristics of SGs more comprehensively.
 - f) By designing the power control as a second-order overdamped system, the SPC can overcome the inherent power oscillation issue of SGs under grid disturbances. Thus, the closed-loop active power control can be further designed as an overdamped system to attenuate the inherent power oscillations of SGs.
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/b9580e0e-43ed-4945-97a2-3700f8eff2b8)
+
+## Virtual Oscillator Controller  Control
+
+<be>The VOC does not require multi-loop hierarchical control, nor does it require the voltage amplitude and frequency measurements, which makes VOC much faster in terms of synchronization speed and power-sharing. The commonly used VOC is based on the Van der Pol oscillator.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/1b732600-a7b0-4c14-a8ee-3aeedef7519d)
+
