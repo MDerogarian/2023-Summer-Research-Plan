@@ -40,4 +40,8 @@ Although some improvements have been implemented, the inner control of the grid-
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/8cb1a99b-aefc-4edd-90c9-ba737281f8e5)
 
 a)The droop control lacks inertia support capability.
-
+b)PSC is similar to the droop control. The difference is that the power deviation is used to adjust the frequency in droop control. Due to the lack of inertial emulation, the difference between them will not cause different results
+c)It can be found that due to the existence of LPFs, the inertia term introduces an inertia simulation to the converter dynamic. Thus, the LPF droop control can provide inertia support to suppress the frequency fluctuation of the power grid.
+d)Similar to the principle of current-controlled VSG control, the active power control of VSG control also refers to the swing equation. Hence, VSG converters can simulate the moment of inertia and the damping characteristics of the rotor.
+e)Based on the VSG, the excitation characteristics of SGs have been further considered in the design of synchronverter. Therefore, the synchronverter mimics the operation character‐ istics of SGs more comprehensively.
+f)By design‐ ing the power control as a second-order overdamped system, the SPC can overcome the inherent power oscillation issue of SGs under grid disturbances
