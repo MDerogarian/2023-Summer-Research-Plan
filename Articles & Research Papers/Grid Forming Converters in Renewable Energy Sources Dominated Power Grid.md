@@ -12,3 +12,16 @@ Zhang, Haobo, et al. "Grid forming converters in renewable energy sources domina
 <be>The GFM converters may suffer from small-signal stability issues when subjected to grid disturbances in strong, active grids. Additionally, during AC faults, the AC fault current limiting strategies may cause transient instability issues of GFM converters [30]-[32]. The reason is once the fault cur‐ rent exceeds the pre-defined current limiter thresholds, the saturated current will force GFM converters to work in constant current source mode, which affects the power-angle curve and causes transient instability problems.
 
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/adc49e37-595c-4b19-9b4b-8d2cd976681d)
+
+<be>Since the power references P* and Q* are constant, the PQ-controlled converter has no grid regulation capacity. That may induce a large grid frequency deviation even under a small disturbance. Moreover, since the dynamic of PLL affects the converter output impedance, the PQ-controlled converter has a poor small-signal stability with integration into weak grid, e.g., RESs dominated power grid. Besides, constrained by controlled current source characteristic, the PQ-controlled converter is a negative load to power grids, which can only transmit power in the presence of a stable AC voltage.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/0b894a50-0919-4804-bfde-ee8b5b1ef6ee)
+
+<be>Compared with PQ control, a droop loop is added to regulate the output power. Hence, the converter can respond to grid disturbances, and has grid frequency/voltage regulation capability like SGs. However, this control cannot provide inertia support for the power grid.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/94e8e7ba-22ee-44a3-a5aa-ce301d974283)
+
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/90fd5333-7c15-4f39-89a6-39d60cd0c262)
+
+Although some improvements have been implemented, the inner control of the grid-supporting GFL control methods is still unchanged. Thus, those enhanced methods still operate as the controlled current sources without stand-alone operation capability. In addition, the inherent stability issue caused by PLL in RESs dominated grid is still a potential risk.
