@@ -86,3 +86,13 @@ Although some improvements have been implemented, the inner control of the grid-
 ![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/402f3af2-a032-4cdc-8248-0f28199b5120)
 
 # CHALLENGES OF GFM CONTROL
+
+## Energy Storage of GFM Converter
+
+<be> The GFM control is simply implemented by an ideal DC voltage source connected to the DC side of converters. Actually, energy storage systems (ESSs) should be involved in GFM converters to self-synchronize with grids and provide grid support. Thus, the implementation and coordination control of ESSs in GFM converter are the technical focuses in future applications.
+<be>Ultra-capacitors is a high-power density storage unit, which is suitable for fast response. The battery is a high-energy-density storage unit, which is suitable for a large energy reserve. In this HESS, the UC can be controlled to generate the power in response to the high rate of change of frequency (RoCoF), and the BES can be used to generate the power in response to low RoCoF.
+<be>HESS needs complex management and control strategies, especially during the charging and discharging of each storage unit. Moreover, there is no guideline on how to design the threshold of Ro‐CoF to trigger different storage units, and it is typically determined through trial and error.
+
+## AC Fault Protection in GFM Converters Interfaced Grid
+
+<be>With the large-scale integration of GFM converters, the fault characteristics will be depended on the converter control, which is quite different from SGs. Thus, conventional protection methods may lose their reliability. For example, the unique current limiting control may cause the malfunction of overcurrent protection schemes during AC faults. with the increasing proportion of renewable energy, conventional AC line protections are not reliable. It is necessary to construct new AC protection schemes considering the cooperation of converter control and relay protection elements.
