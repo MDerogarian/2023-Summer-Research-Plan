@@ -63,3 +63,8 @@ Although some improvements have been implemented, the inner control of the grid-
 
 <be> When the fault current exceeds the limiter threshold, the current reference is saturated, which will change the operation mode of GFM converters from voltage source mode to current source mode. Under this circumstance, a large input error of the PSL during faults may cause a large output frequency deviation. Meanwhile, the power angle of converters will increase continuously, leading to the loss of synchronization.
 
+# APPLICATIONS OF GFM CONTROL
+
+## Application in AC Microgrids
+
+<be>Under grid disturbances, the frequency fluctuation caused by low-inertia is the major stability issue in microgrids. To im‐ prove the stability of the microgrids, GFM control is promising for grid-tied converters. By implementing the GFM control in converters of charging stations, the EVs can behave like an energy storage device to provide grid support similar to RESs. 
