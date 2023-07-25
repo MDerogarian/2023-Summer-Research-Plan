@@ -81,4 +81,7 @@ Although some improvements have been implemented, the inner control of the grid-
 
 <be>Since the grid-side converter (GSC) of wind turbine (WT) adopts GFL control, the offshore AC grid is equivalent to a passive grid. Thus, the VF control is commonly applied in offshore HVDC converters to provide a stable AC voltage.
 
-<be>
+<be>With the increasing integration of RESs via HVDC systems, the onshore AC grid has potential instability problems, such as low inertia and low short-circuit ratio (SCR). To overcome these issues, the GFM control can be applied in onshore HVDC converters. Due to the requirement of DC voltage control, the self-synchronization strategies of the onshore converter are commonly based on DC capacitor voltage (i. e., matching control). The matching control methods utilize the physical DC-link capacitor as energy storage, which is like the rotor energy storage of SGs.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/402f3af2-a032-4cdc-8248-0f28199b5120)
+
