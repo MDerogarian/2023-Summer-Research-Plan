@@ -68,3 +68,17 @@ Although some improvements have been implemented, the inner control of the grid-
 ## Application in AC Microgrids
 
 <be>Under grid disturbances, the frequency fluctuation caused by low-inertia is the major stability issue in microgrids. To im‐ prove the stability of the microgrids, GFM control is promising for grid-tied converters. By implementing the GFM control in converters of charging stations, the EVs can behave like an energy storage device to provide grid support similar to RESs. 
+
+<be>Owing to different distances from converters to PCC, the line impedance may not meet, which will cause reactive power sharing error. The large power error may result in a large circulating current between converters and even damage the converters. While for active power sharing, since the frequency cannot be affected by the line impedance, active power can be shared according to the converter capacity without error. To eliminate the reactive power sharing error, the virtual impedance control is regarded as a promising solution. By introducing large matched virtual impedances in parallel converters, the mismatched line impedance issues can be overcome.
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/5938b629-3d0e-4f0c-b737-56728b6101bd)
+
+<be>For the power decoupling error, it arouses from the resistive lines, especially in the low-voltage microgrids. The decoupling design of P-f and Q-V droop control in GFM converters is commonly based on pure inductive lines. Thus, the resistive lines will increase the coupling between active and reactive power, which will deteriorate the power control accuracy. To overcome the power decoupling error, the virtual im‐ pedance control technology is still effective. By introducing a large virtual inductance, the effect of resistive lines can be ignored. However, the virtual inductance should be selected appropriately. A large virtual inductance will cause a large output voltage sag, which requires compensation.
+
+## Application in Offshore Wind Farm (OWF) HVDC Systems
+
+![image](https://github.com/MDerogarian/2023-Summer-Research-Plan/assets/74963406/5fc33545-65c4-4df1-be1e-18d52158e66e)
+
+<be>Since the grid-side converter (GSC) of wind turbine (WT) adopts GFL control, the offshore AC grid is equivalent to a passive grid. Thus, the VF control is commonly applied in offshore HVDC converters to provide a stable AC voltage.
+
+<be>
